@@ -1,0 +1,2 @@
+2022/06/21 17:57:26 [alert] 19488#22028: OpenEvent("ngx_master_5628") failed (2: The system cannot find the file specified)
+2022/06/21 17:58:35 [error] 16652#19332: *3 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.0", upstream: "fastcgi://127.0.0.1:10003", host: "softsolutions.local", referrer: "http://softsolutions.local/"

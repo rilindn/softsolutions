@@ -1,0 +1,219 @@
+[21-Jun-2022 15:37:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 15:37:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 15:37:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 15:37:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 16:15:19 UTC] PHP Parse error:  syntax error, unexpected '}' in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 4
+[21-Jun-2022 19:14:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\includes\plugin-install.php on line 183
+[21-Jun-2022 19:14:35 UTC] PHP Stack trace:
+[21-Jun-2022 19:14:35 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\plugin-install.php:0
+[21-Jun-2022 19:14:35 UTC] PHP   2. do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\plugin-install.php:196
+[21-Jun-2022 19:14:35 UTC] PHP   3. WP_Hook->do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 19:14:35 UTC] PHP   4. WP_Hook->apply_filters() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 19:14:35 UTC] PHP   5. install_dashboard() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:307
+[21-Jun-2022 19:14:35 UTC] PHP   6. install_popular_tags() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\includes\plugin-install.php:277
+[21-Jun-2022 19:14:35 UTC] PHP   7. plugins_api() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\includes\plugin-install.php:252
+[21-Jun-2022 19:14:35 UTC] PHP   8. trigger_error() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\includes\plugin-install.php:183
+[21-Jun-2022 19:15:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\update.php on line 172
+[21-Jun-2022 19:15:35 UTC] PHP Stack trace:
+[21-Jun-2022 19:15:35 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\update.php:0
+[21-Jun-2022 19:15:35 UTC] PHP   2. Plugin_Upgrader->install() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\update.php:176
+[21-Jun-2022 19:15:35 UTC] PHP   3. Plugin_Upgrader->run() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[21-Jun-2022 19:15:35 UTC] PHP   4. do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\includes\class-wp-upgrader.php:858
+[21-Jun-2022 19:15:35 UTC] PHP   5. WP_Hook->do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 19:15:35 UTC] PHP   6. WP_Hook->apply_filters() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 19:15:35 UTC] PHP   7. wp_version_check() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:305
+[21-Jun-2022 19:15:35 UTC] PHP   8. trigger_error() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\update.php:172
+[21-Jun-2022 19:15:41 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\update.php on line 410
+[21-Jun-2022 19:15:41 UTC] PHP Stack trace:
+[21-Jun-2022 19:15:41 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\update.php:0
+[21-Jun-2022 19:15:41 UTC] PHP   2. Plugin_Upgrader->install() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\update.php:176
+[21-Jun-2022 19:15:41 UTC] PHP   3. Plugin_Upgrader->run() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[21-Jun-2022 19:15:41 UTC] PHP   4. do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\includes\class-wp-upgrader.php:858
+[21-Jun-2022 19:15:41 UTC] PHP   5. WP_Hook->do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 19:15:41 UTC] PHP   6. WP_Hook->apply_filters() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 19:15:41 UTC] PHP   7. wp_update_plugins() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:305
+[21-Jun-2022 19:15:41 UTC] PHP   8. trigger_error() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\update.php:410
+[21-Jun-2022 19:33:39 UTC] PHP Warning:  require_once(F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php): failed to open stream: No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:33:39 UTC] PHP Stack trace:
+[21-Jun-2022 19:33:39 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:33:39 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:33:39 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:33:39 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:33:39 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:33:39 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:33:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:33:39 UTC] PHP Stack trace:
+[21-Jun-2022 19:33:39 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:33:39 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:33:39 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:33:39 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:33:39 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:33:39 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:33:39 UTC] PHP Warning:  require_once(F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php): failed to open stream: No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:33:39 UTC] PHP Stack trace:
+[21-Jun-2022 19:33:39 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:33:39 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:33:39 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:33:39 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:33:39 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:33:39 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:33:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:33:39 UTC] PHP Stack trace:
+[21-Jun-2022 19:33:39 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:33:39 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:33:39 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:33:39 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:33:39 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:33:39 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:33:59 UTC] PHP Warning:  require_once(F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php): failed to open stream: No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:33:59 UTC] PHP Stack trace:
+[21-Jun-2022 19:33:59 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:33:59 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:33:59 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:33:59 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:33:59 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:33:59 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:33:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:33:59 UTC] PHP Stack trace:
+[21-Jun-2022 19:33:59 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:33:59 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:33:59 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:33:59 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:33:59 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:33:59 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:34:00 UTC] PHP Warning:  require_once(F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php): failed to open stream: No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:34:00 UTC] PHP Stack trace:
+[21-Jun-2022 19:34:00 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:34:00 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:34:00 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:34:00 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:34:00 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:34:00 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:34:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:34:00 UTC] PHP Stack trace:
+[21-Jun-2022 19:34:00 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:34:00 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:34:00 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:34:00 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:34:00 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:34:00 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:40:57 UTC] PHP Warning:  require_once(F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php): failed to open stream: No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:40:57 UTC] PHP Stack trace:
+[21-Jun-2022 19:40:57 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:40:57 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:40:57 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:40:57 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:40:57 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:40:57 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:40:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:40:57 UTC] PHP Stack trace:
+[21-Jun-2022 19:40:57 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:40:57 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:40:57 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:40:57 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:40:57 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:40:57 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:41:20 UTC] PHP Warning:  require_once(F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php): failed to open stream: No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:41:20 UTC] PHP Stack trace:
+[21-Jun-2022 19:41:20 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\options.php:0
+[21-Jun-2022 19:41:20 UTC] PHP   2. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\options.php:19
+[21-Jun-2022 19:41:20 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\admin.php:34
+[21-Jun-2022 19:41:20 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:41:20 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:41:20 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:41:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:41:20 UTC] PHP Stack trace:
+[21-Jun-2022 19:41:20 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\options.php:0
+[21-Jun-2022 19:41:20 UTC] PHP   2. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\options.php:19
+[21-Jun-2022 19:41:20 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-admin\admin.php:34
+[21-Jun-2022 19:41:20 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:41:20 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:41:20 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:41:20 UTC] PHP Warning:  require_once(F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php): failed to open stream: No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:41:20 UTC] PHP Stack trace:
+[21-Jun-2022 19:41:20 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:41:20 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:41:20 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:41:20 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:41:20 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:41:20 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 19:41:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions/vendor/trampoline-digital/wp-scss/wp-scss.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\themes\softsolutions\functions.php on line 2
+[21-Jun-2022 19:41:20 UTC] PHP Stack trace:
+[21-Jun-2022 19:41:20 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 19:41:20 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 19:41:20 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 19:41:20 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 19:41:20 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 19:41:20 UTC] PHP   6. include() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:566
+[21-Jun-2022 20:27:30 UTC] PHP Warning:  unlink(F:\Literatura UBT\Semestri VI\Wordpress\app\public/wp-content/plugins/wp-scss/cache/header.css): No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php on line 108
+[21-Jun-2022 20:27:30 UTC] PHP Stack trace:
+[21-Jun-2022 20:27:30 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 20:27:30 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 20:27:30 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 20:27:30 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 20:27:30 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 20:27:30 UTC] PHP   6. do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:620
+[21-Jun-2022 20:27:30 UTC] PHP   7. WP_Hook->do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 20:27:30 UTC] PHP   8. WP_Hook->apply_filters() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 20:27:30 UTC] PHP   9. wp_scss_needs_compiling() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:307
+[21-Jun-2022 20:27:30 UTC] PHP  10. wp_scss_compile() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\wp-scss.php:230
+[21-Jun-2022 20:27:30 UTC] PHP  11. Wp_Scss->compile() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\wp-scss.php:245
+[21-Jun-2022 20:27:30 UTC] PHP  12. unlink() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108
+[21-Jun-2022 20:27:30 UTC] PHP Warning:  file_get_contents(F:\Literatura UBT\Semestri VI\Wordpress\app\public/wp-content/plugins/wp-scss/cache/style.css): failed to open stream: No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php on line 107
+[21-Jun-2022 20:27:30 UTC] PHP Stack trace:
+[21-Jun-2022 20:27:30 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 20:27:30 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 20:27:30 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 20:27:30 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 20:27:30 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 20:27:30 UTC] PHP   6. do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:620
+[21-Jun-2022 20:27:30 UTC] PHP   7. WP_Hook->do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 20:27:30 UTC] PHP   8. WP_Hook->apply_filters() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 20:27:30 UTC] PHP   9. wp_scss_needs_compiling() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:307
+[21-Jun-2022 20:27:30 UTC] PHP  10. wp_scss_compile() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\wp-scss.php:230
+[21-Jun-2022 20:27:30 UTC] PHP  11. Wp_Scss->compile() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\wp-scss.php:245
+[21-Jun-2022 20:27:30 UTC] PHP  12. file_get_contents() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:107
+[21-Jun-2022 20:27:30 UTC] PHP Warning:  unlink(F:\Literatura UBT\Semestri VI\Wordpress\app\public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php on line 108
+[21-Jun-2022 20:27:30 UTC] PHP Stack trace:
+[21-Jun-2022 20:27:30 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 20:27:30 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 20:27:30 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:13
+[21-Jun-2022 20:27:30 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-load.php:50
+[21-Jun-2022 20:27:30 UTC] PHP   5. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-config.php:91
+[21-Jun-2022 20:27:30 UTC] PHP   6. do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-settings.php:620
+[21-Jun-2022 20:27:30 UTC] PHP   7. WP_Hook->do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 20:27:30 UTC] PHP   8. WP_Hook->apply_filters() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 20:27:30 UTC] PHP   9. wp_scss_needs_compiling() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:307
+[21-Jun-2022 20:27:30 UTC] PHP  10. wp_scss_compile() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\wp-scss.php:230
+[21-Jun-2022 20:27:30 UTC] PHP  11. Wp_Scss->compile() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\wp-scss.php:245
+[21-Jun-2022 20:27:30 UTC] PHP  12. unlink() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108
+[21-Jun-2022 20:27:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108) in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\pluggable.php on line 1421
+[21-Jun-2022 20:27:30 UTC] PHP Stack trace:
+[21-Jun-2022 20:27:30 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 20:27:30 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 20:27:30 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:19
+[21-Jun-2022 20:27:30 UTC] PHP   4. do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\template-loader.php:45
+[21-Jun-2022 20:27:30 UTC] PHP   5. WP_Hook->do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 20:27:30 UTC] PHP   6. WP_Hook->apply_filters() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 20:27:30 UTC] PHP   7. do_favicon() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:307
+[21-Jun-2022 20:27:30 UTC] PHP   8. wp_redirect() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\functions.php:1733
+[21-Jun-2022 20:27:30 UTC] PHP   9. header() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\pluggable.php:1421
+[21-Jun-2022 20:27:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108) in F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\pluggable.php on line 1424
+[21-Jun-2022 20:27:30 UTC] PHP Stack trace:
+[21-Jun-2022 20:27:30 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:0
+[21-Jun-2022 20:27:30 UTC] PHP   2. require() F:\Literatura UBT\Semestri VI\Wordpress\app\public\index.php:17
+[21-Jun-2022 20:27:30 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-blog-header.php:19
+[21-Jun-2022 20:27:30 UTC] PHP   4. do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\template-loader.php:45
+[21-Jun-2022 20:27:30 UTC] PHP   5. WP_Hook->do_action() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\plugin.php:476
+[21-Jun-2022 20:27:30 UTC] PHP   6. WP_Hook->apply_filters() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:331
+[21-Jun-2022 20:27:30 UTC] PHP   7. do_favicon() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\class-wp-hook.php:307
+[21-Jun-2022 20:27:30 UTC] PHP   8. wp_redirect() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\functions.php:1733
+[21-Jun-2022 20:27:30 UTC] PHP   9. header() F:\Literatura UBT\Semestri VI\Wordpress\app\public\wp-includes\pluggable.php:1424
+[21-Jun-2022 22:44:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 22:44:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 22:44:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 22:44:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 22:47:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 22:47:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 22:47:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[21-Jun-2022 22:47:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DT-Trade/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
