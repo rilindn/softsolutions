@@ -33,3 +33,45 @@ p,
 ul {
   margin: 0;
 }
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  .site-main {
+    max-width: 1120px;
+  }
+}
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  .service-post {
+    max-width: 200px;
+  }
+}
+
+.blogs {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  .blog-post {
+    max-width: 300px;
+    border: 1px solid $light-gray;
+    box-shadow: $light-gray 1px 2px 40px;
+    border-radius: 10px;
+    a {
+      text-decoration: none;
+    }
+    .thumbnail {
+      img {
+        height: 200px !important;
+        border-radius: 10px 10px 0 0;
+      }
+    }
+    .content {
+      padding: 10px;
+    }
+  }
+}

@@ -1,14 +1,21 @@
 @import "./colors";
 
-.header {
-  background-image: url("../assets/cover.png");
-  background-repeat: no-repeat;
-  height: 400px;
-  background-size: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
-  padding: 40px;
+.header,
+.header-default {
   color: $light;
+  &__body {
+    background-image: url("../assets/cover.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+    padding: 40px;
+  }
   .top-header {
+    &-default {
+      padding: 20px;
+      background-color: $primary;
+    }
     display: flex;
     justify-content: space-between;
     .title {

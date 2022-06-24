@@ -11,21 +11,14 @@
 
 <body <?php body_class() ?>>
     <div class="site">
-        <header class="header header__body">
-            <div class="top-header">
+        <header class="header-default">
+            <div class="top-header top-header-default">
                 <p class="title">Soft Solutions</p>
                 <nav class="navigation-menu">
                     <?php wp_nav_menu([
                         'theme_location' => 'main-menu'
                         ])?>
                 </nav>
-            </div>
-            <div class="body-header">
-                <h1 class="title">Software Solutions & Engineering</h1>
-                <p class="description">
-                    We build tailored software solutions, do custom software engineering and accomplish comprehensive
-                    system integrations.
-                </p>
             </div>
         </header>
     </div>
