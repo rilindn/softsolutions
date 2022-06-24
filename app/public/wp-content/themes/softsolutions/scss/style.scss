@@ -47,8 +47,9 @@ ul {
 .services {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   .service-post {
-    max-width: 200px;
+    max-width: 30%;
   }
 }
 
@@ -56,22 +57,44 @@ ul {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
+
   .blog-post {
-    max-width: 300px;
+    max-width: 30%;
     border: 1px solid $light-gray;
-    box-shadow: $light-gray 1px 2px 40px;
     border-radius: 10px;
+    &:hover {
+      box-shadow: $light-gray 1px 2px 40px;
+    }
+
     a {
       text-decoration: none;
     }
+
     .thumbnail {
       img {
         height: 200px !important;
         border-radius: 10px 10px 0 0;
       }
     }
+
     .content {
       padding: 10px;
+    }
+  }
+}
+.page-content {
+  .wp-block-cover {
+    .wp-block-cover__inner-container {
+      margin: 100px !important;
+    }
+  }
+
+  .wp-block-group {
+    display: flex;
+    justify-content: center;
+    .wp-block-group__inner-container {
+      width: 80%;
+      padding: 40px 0;
     }
   }
 }

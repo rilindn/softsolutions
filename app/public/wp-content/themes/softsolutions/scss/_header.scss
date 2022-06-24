@@ -3,6 +3,7 @@
 .header,
 .header-default {
   color: $light;
+
   &__body {
     background-image: url("../assets/cover.png");
     background-repeat: no-repeat;
@@ -11,13 +12,25 @@
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
     padding: 40px;
   }
+
   .top-header {
-    &-default {
-      padding: 20px;
-      background-color: $primary;
-    }
     display: flex;
     justify-content: space-between;
+
+    &__default {
+      padding: 20px;
+      background-color: transparent;
+      position: fixed;
+      z-index: 100;
+      width: 100%;
+      box-sizing: border-box;
+      transition: background-color 0.3s linear;
+    }
+
+    &--scrolled-background {
+      background-color: $primary;
+    }
+
     .title {
       font-weight: 600;
       font-size: 22px;
@@ -27,6 +40,7 @@
       }
     }
   }
+
   .body-header {
     width: 40%;
     margin-top: 100px;

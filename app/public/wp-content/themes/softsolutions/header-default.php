@@ -12,7 +12,7 @@
 <body <?php body_class() ?>>
     <div class="site">
         <header class="header-default">
-            <div class="top-header top-header-default">
+            <div id="header" class="top-header top-header__default">
                 <p class="title">Soft Solutions</p>
                 <nav class="navigation-menu">
                     <?php wp_nav_menu([
@@ -22,3 +22,17 @@
             </div>
         </header>
     </div>
+
+    <script>
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 430 || document.documentElement.scrollTop > 430) {
+            document.getElementById("header").classList.add('top-header--scrolled-background')
+        } else {
+            document.getElementById("header").classList.remove('top-header--scrolled-background')
+        }
+    }
+    </script>
