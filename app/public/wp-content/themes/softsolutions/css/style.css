@@ -34,6 +34,7 @@
 .header-default .top-header .title {
   font-weight: 600;
   font-size: 22px;
+  color: #f0f7ff;
 }
 .header .top-header .title span,
 .header-default .top-header .title span {
@@ -125,6 +126,48 @@
 }
 .services .service-post:nth-child(3n + 3) .arrow-icon {
   fill: #fc6327;
+}
+.page-about-wrapper .main-container > .wp-block-group__inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-about-wrapper .main-container .first-container {
+  width: 50%;
+}
+.page-about-wrapper .main-container .img-container img {
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  width: 400px;
+  height: 350px;
+}
+.page-about-wrapper .main-container .middle-p {
+  margin-bottom: 30px;
+}
+.page-about-wrapper .columns-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.page-about-wrapper .columns-container img {
+  width: 130px !important;
+  height: 180px !important;
+}
+.page-about-wrapper .sub-container > .wp-block-group__inner-container {
+  display: flex;
+}
+.page-about-wrapper .sub-container img {
+  width: 140px;
+  height: 40px;
+}
+.page-about-wrapper .text-container {
+  margin-left: 20px;
+}
+.page-about-wrapper .first-p {
+  margin-bottom: 20px;
+}
+.page-about-wrapper .remote-working > .wp-block-group__inner-container {
+  align-items: unset;
 }
 .single-post .wp-block-cover .wp-block-cover__inner-container {
   margin: 100px !important;
@@ -269,11 +312,11 @@ ul {
 .page-content .wp-block-cover .wp-block-cover__inner-container {
   margin: 100px !important;
 }
-.page-content .wp-block-group {
+.page-content > .wp-block-group {
   display: flex;
   justify-content: center;
 }
-.page-content .wp-block-group .wp-block-group__inner-container {
+.page-content > .wp-block-group > .wp-block-group__inner-container {
   width: 80%;
   padding: 40px 0;
 }
@@ -296,4 +339,17 @@ ul {
 .see-more__btn:hover {
   background-color: #1ad47b;
   color: #f0f7ff;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #414d5b;
+}
+h2 {
+  font-size: 30px;
+}
+p,
+span {
+  color: #6b7480;
 }
