@@ -29,7 +29,7 @@
     };
 
     function scrollFunction() {
-        if (document.body.scrollTop > 430 || document.documentElement.scrollTop > 430) {
+        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
             document.getElementById("header").classList.add('top-header--scrolled-background')
         } else {
             document.getElementById("header").classList.remove('top-header--scrolled-background')
