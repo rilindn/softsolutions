@@ -14,6 +14,8 @@
 */
 @import "./_header.scss";
 @import "./_footer.scss";
+@import "./_services.scss";
+@import "./_single-post.scss";
 
 html {
   line-height: 1.15;
@@ -41,15 +43,6 @@ ul {
   padding: 40px 0;
   .site-main {
     max-width: 1120px;
-  }
-}
-
-.services {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  .service-post {
-    max-width: 30%;
   }
 }
 
@@ -95,6 +88,26 @@ ul {
     .wp-block-group__inner-container {
       width: 80%;
       padding: 40px 0;
+    }
+  }
+}
+.see-more {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  &__btn {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 1px solid $secondary;
+    border-radius: 20px;
+    transition: 0.3s;
+    color: $secondary;
+    text-align: center;
+    &:hover {
+      background-color: $secondary;
+      color: $light;
     }
   }
 }

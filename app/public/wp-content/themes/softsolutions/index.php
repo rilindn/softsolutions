@@ -22,6 +22,9 @@
                     }
                 ?>
             </div>
+            <a href="/services" class="see-more">
+                <div class="see-more__btn"> See more</div>
+            </a>
         </div>
         <!-- show 3 latest blogs posted -->
         <div>

@@ -1,0 +1,23 @@
+.single-post {
+  .wp-block-cover {
+    .wp-block-cover__inner-container {
+      margin: 100px !important;
+    }
+  }
+  .wp-block-group {
+    display: flex;
+    justify-content: center;
+    .wp-block-group__inner-container {
+      width: 80%;
+      padding: 40px 0;
+    }
+    h1,
+    h2,
+    h3 {
+      color: $text-main;
+    }
+    p {
+      color: $text-light;
+    }
+  }
+}

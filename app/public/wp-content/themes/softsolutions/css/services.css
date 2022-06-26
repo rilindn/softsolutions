@@ -1,0 +1,12 @@
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.services .service-post {
+  max-width: 27%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(26, 212, 123, 0.5);
+  padding: 20px;
+}
