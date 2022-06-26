@@ -1,0 +1,58 @@
+@import "./colors";
+
+.page-about-wrapper {
+  .main-container {
+    > .wp-block-group__inner-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .first-container {
+      width: 50%;
+    }
+    .img-container {
+      img {
+        border-bottom-left-radius: 100px;
+        border-top-right-radius: 100px;
+        width: 400px;
+        height: 350px;
+      }
+    }
+    .middle-p {
+      margin-bottom: 30px;
+    }
+  }
+
+  .columns-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    img {
+      width: 130px !important;
+      height: 180px !important;
+    }
+  }
+
+  .sub-container {
+    > .wp-block-group__inner-container {
+      display: flex;
+    }
+    img {
+      width: 140px;
+      height: 40px;
+    }
+  }
+
+  .text-container {
+    margin-left: 20px;
+  }
+  .first-p {
+    margin-bottom: 20px;
+  }
+
+  .remote-working {
+    > .wp-block-group__inner-container {
+      align-items: unset;
+    }
+  }
+}
