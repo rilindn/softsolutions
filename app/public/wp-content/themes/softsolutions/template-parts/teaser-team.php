@@ -9,4 +9,9 @@
                 ?>
             </h1>
         </header>
+        <p>
+            <?php
+            the_excerpt()
+            ?>
+        </p>
 </article>
