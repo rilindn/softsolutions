@@ -10,7 +10,7 @@
             <div class="team wp-block-group__inner-container">
                 <?php
                     $the_query = new WP_Query( array(
-                        'category_name' => 'team',
+                        'post_type' => 'member',
                     )); 
                         
                     if ($the_query->have_posts()) {

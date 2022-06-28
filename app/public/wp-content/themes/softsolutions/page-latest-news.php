@@ -34,8 +34,10 @@
                             </div>
                             <span class="pubDate"><?php echo $element['pubDate'] ?></span>
                         </div>
-                        <h3><?php echo $element['title']  ?></h3>
-                        <p><?php echo $element['description']  ?></p>
+                        <div class="body">
+                            <h3 class="body--truncate"><?php echo $element['title']  ?></h3>
+                            <p class="body--truncate"><?php echo $element['description']  ?></p>
+                        </div>
                     </div>
                 </a>
                 <?php
