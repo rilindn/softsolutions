@@ -1,0 +1,30 @@
+@import "./_colors.scss";
+
+.team {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+  .team-post {
+    border-radius: 10px;
+    padding: 30px 20px;
+    .entry-header {
+      .thumbnail {
+        img {
+          width: 300px;
+          height: 280px;
+          border-top-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+        }
+      }
+    }
+  }
+}
+.team-text {
+  text-align: center;
+  margin-top: 50px;
+}
+.quote {
+  text-align: center;
+  font-family: cursive;
+}
