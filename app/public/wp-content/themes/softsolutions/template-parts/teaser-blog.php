@@ -6,7 +6,7 @@
         <div class="blog-content">
             <?php the_title('<h1>', '</h1>'); ?>
             <div class="content-description">
-                <?php the_excerpt(); ?>
+                <? echo wp_trim_words(get_the_excerpt(), 30) ;?>
             </div>
             <hr class="divider" />
             <div class="author">

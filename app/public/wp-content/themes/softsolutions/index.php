@@ -47,6 +47,9 @@
                     }
                 ?>
             </div>
+            <a href="/blogs" class="see-more-blogs">
+                <div class="see-more-blogs__btn"> See more</div>
+            </a>
         </div>
     </main>
 </div>
