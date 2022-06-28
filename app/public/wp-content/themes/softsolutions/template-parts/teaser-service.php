@@ -2,7 +2,7 @@
     <a href="<?php the_permalink() ?>">
         <header class="entry-header">
             <picture class="thumbnail">
-                <?php the_post_thumbnail('medium') ?>
+                <img src="<?php echo get_field('icon') ?>" alt="">
             </picture>
             <h1>
                 <?php 
@@ -12,7 +12,7 @@
         </header>
         <div class="entry-content">
             <div class="content-description">
-                <? echo wp_trim_words(get_the_excerpt(), 30) ;?>
+                <? echo wp_trim_words(get_field('short-description'), 30) ;?>
             </div>
             <div class="direction-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="29.151" height="20" viewBox="0 0 29.151 25">

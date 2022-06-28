@@ -10,7 +10,7 @@
             <div class="services wp-block-group__inner-container">
                 <?php
                     $the_query = new WP_Query( array(
-                        'category_name' => 'service',
+                        'post_type' => 'service',
                     )); 
                         
                     if ($the_query->have_posts()) {

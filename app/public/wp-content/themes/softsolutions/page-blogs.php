@@ -10,7 +10,7 @@
             <div class="blogs wp-block-group__inner-container">
                 <?php
                     $the_query = new WP_Query( array(
-                        'category_name' => 'blog',
+                        'post_type' => 'blog',
                     )); 
                         
                     if ($the_query->have_posts()) {

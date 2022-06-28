@@ -4,31 +4,46 @@
             <?php the_post_thumbnail('medium') ?>
         </picture>
         <div class="blog-content">
-            <?php the_title('<h1>', '</h1>'); ?>
-            <div class="content-description">
-                <? echo wp_trim_words(get_the_excerpt(), 30) ;?>
-            </div>
-            <hr class="divider" />
-            <div class="author">
-                <div class="avatar">
-                <!-- <?php 
-                    if(the_author()){
-                        $author = the_author();
-                        $author = ucfirst($author);
-                        $rest = substr($author, 0, 1);
-                        echo $rest;
+            <div>
+
+                <div class="tags">
+                    <?php 
+                    $tags = get_field('tags');
+                    if ($tags) {
+                        foreach ($tags as $tag) {
+                ?>
+                    <span class="tag">
+                        <?php echo $tag;?>
+                    </span>
+                    <?php 
+                        }
                     }
-                
-                ?> -->
+                ?>
                 </div>
-                <div class="author-date">
-                    <div class="author-section">
-
-                    <?php the_author();  ?>
+                <div class="text-content">
+                    <h1 class="title text-content--truncate">
+                        <?php the_title(); ?>
+                    </h1>
+                    <div class="description text-content--truncate">
+                        <?php the_excerpt(); ?>
                     </div>
-                    <div class="date-section">
+                </div>
+            </div>
+            <div>
 
-                    <?php the_date(); ?>
+                <hr class="divider" />
+                <div class="author">
+                    <div class="avatar">
+                        <img src="<?php echo get_field('author_profile_picture')?>" alt="">
+                    </div>
+                    <div class="author-date">
+                        <div class="author-section">
+                            <?php echo get_field('author_name');  ?>
+                        </div>
+                        <div class="date-section">
+
+                            <?php the_date(); ?>
+                        </div>
                     </div>
                 </div>
             </div>
