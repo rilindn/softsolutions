@@ -10,7 +10,7 @@
             <div class="projects wp-block-group__inner-container">
                 <?php
                     $the_query = new WP_Query( array(
-                        'category_name' => 'project',
+                        'post_type' => 'project',
                     )); 
                         
                     if ($the_query->have_posts()) {
