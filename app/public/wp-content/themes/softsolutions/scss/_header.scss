@@ -26,7 +26,7 @@
     }
 
     &__default {
-      padding: 20px;
+      padding: 10px 35px;
       background-color: transparent;
       position: fixed;
       z-index: 100;
@@ -37,6 +37,14 @@
 
     &--scrolled-background {
       background-color: $primary;
+      svg {
+        path:first-child {
+          fill: $light;
+        }
+        path:last-child {
+          fill: $primary;
+        }
+      }
     }
 
     .title {

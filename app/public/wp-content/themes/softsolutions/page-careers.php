@@ -10,7 +10,7 @@
             <div class="careers wp-block-group__inner-container">
                 <?php
                     $the_query = new WP_Query( array(
-                        'category_name' => 'career',
+                        'post_type' => 'open-position',
                     )); 
                         
                     if ($the_query->have_posts()) {

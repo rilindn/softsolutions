@@ -4,9 +4,16 @@
             <?php the_post_thumbnail('medium') ?>
         </picture>
         <div class="project-content">
-            <?php the_title('<h1>', '</h1>'); ?>
+            <h1>
+                <?php echo get_field('name') ?>
+            </h1>
             <div class="content-description">
-                <?php the_excerpt(); ?>
+                <h4 class="company">
+                    <?php echo get_field('company') ?>
+                </h4>
+                <p>
+                    <?php echo get_field('short_description') ?>
+                </p>
             </div>
             <div class="direction-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="29.151" height="20" viewBox="0 0 29.151 25">
