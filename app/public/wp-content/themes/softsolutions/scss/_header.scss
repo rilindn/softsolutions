@@ -9,13 +9,21 @@
     background-repeat: no-repeat;
     height: 400px;
     background-size: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
-    padding: 40px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    // padding: 40px;
+    padding: 20px 40px 40px;
   }
 
   .top-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
 
     &__default {
       padding: 20px;
@@ -33,7 +41,7 @@
 
     .title {
       font-weight: 600;
-      font-size: 22px;
+      font-size: 28px;
       color: $light;
       span {
         all: unset;
@@ -43,15 +51,51 @@
   }
 
   .body-header {
-    width: 40%;
-    margin-top: 100px;
-    .title {
-      font-size: 38px;
-      font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .intro {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .title {
+        font-size: 38px;
+        font-weight: 800;
+        color: $light;
+      }
+      .description {
+        font-size: 18px;
+        font-weight: 500;
+        color: $light;
+        margin: 10px 0;
+      }
+      .our-work-btn {
+        background-color: $orange;
+        border-radius: 25px;
+        text-align: center;
+        padding: 10px 25px;
+        display: inline-flex;
+        box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+        transition: 0.2s;
+        position: relative;
+        z-index: 10;
+        margin-top: 20px;
+        color: $light;
+
+        &:hover {
+          background-color: rgba($orange, 0.8);
+          transition: 0.1s;
+        }
+      }
     }
-    .description {
-      font-size: 18px;
-      font-weight: 500;
+
+    .header-svg {
+      width: 50%;
+      display: flex;
+      justify-content: center;
     }
   }
 }
