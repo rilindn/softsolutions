@@ -21,16 +21,15 @@
                 ?>
                 </div>
                 <div class="text-content">
-                    <h1 class="title text-content--truncate">
+                    <h3 class="title text-content--truncate">
                         <?php the_title(); ?>
-                    </h1>
+                    </h3>
                     <div class="description text-content--truncate">
                         <?php the_excerpt(); ?>
                     </div>
                 </div>
             </div>
             <div>
-
                 <hr class="divider" />
                 <div class="author">
                     <div class="avatar">

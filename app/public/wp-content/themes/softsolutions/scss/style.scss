@@ -42,6 +42,10 @@ ul {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .content-area {
   display: flex;
   flex-direction: column;
@@ -56,15 +60,14 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 40px;
 
   .blog-post {
     // width: 30%;
-    border: 1px solid $light-gray;
-    border-radius: 6px;
-    box-shadow: #a6d7f0 1px 2px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba($secondary, 0.1);
     &:hover {
-      box-shadow: #72c2ea 1px 2px 10px;
+      box-shadow: 0 0 20px 0 rgba($secondary, 0.2);
     }
     @include xs {
       width: 90%;
@@ -95,11 +98,11 @@ ul {
     }
 
     .blog-content {
-      width: 90%;
       padding: 0px 15px 10px 10px !important;
       color: #414d5b !important;
 
       .text-content {
+        padding: 10px 4px;
         &--truncate {
           display: -webkit-box;
           max-width: 100%;
@@ -111,7 +114,7 @@ ul {
           margin: 5px 0;
         }
         .description {
-          -webkit-line-clamp: 4;
+          -webkit-line-clamp: 3;
         }
       }
       .divider {

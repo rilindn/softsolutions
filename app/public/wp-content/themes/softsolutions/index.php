@@ -7,7 +7,7 @@
             <div class="services">
                 <?php
                     $the_query = new WP_Query( array(
-                        'category_name' => 'service',
+                        'post_type' => 'service',
                         'posts_per_page' => 3,
                     )); 
                         
@@ -32,7 +32,7 @@
             <div class="blogs">
                 <?php
                     $the_query = new WP_Query( array(
-                        'category_name' => 'blog',
+                        'post_type' => 'blog',
                         'posts_per_page' => 3,
                     )); 
                     
