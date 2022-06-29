@@ -1,0 +1,53 @@
+@import "./_colors.scss";
+@import "./breakpoints.scss";
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+
+  .project-post {
+    border-radius: 6px;
+    box-shadow: #93d1ef 1px 2px 10px;
+    &:hover {
+      box-shadow: #72c2ea 1px 2px 10px;
+    }
+    @include xs {
+      width: 90%;
+    }
+    @include sm {
+      width: 90%;
+    }
+    @include md {
+      width: 40%;
+    }
+    @include lg {
+      width: 30%;
+    }
+    @include xl {
+      width: 30%;
+    }
+    a {
+      text-decoration: none;
+    }
+
+    .thumbnail {
+      width: 100% !important;
+      img {
+        width: 100% !important;
+        height: 200px !important;
+        border-radius: 10px 10px 0 0;
+      }
+    }
+
+    .project-content {
+      width: 90%;
+      padding: 0px 15px 10px 10px !important;
+      color: #414d5b !important;
+      .direction-icon {
+        text-align: right;
+      }
+    }
+  }
+}
