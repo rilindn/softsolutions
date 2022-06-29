@@ -1,0 +1,71 @@
+@import "./_colors.scss";
+
+.careers {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+  .career-post {
+    max-width: 27%;
+    border-radius: 10px;
+    box-shadow: rgba($secondary) 0px 4px 6px -1px,
+      rgba($primary) 0px 2px 4px -1px;
+    padding: 30px 20px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: rgba($secondary, 1) 0px 4px 6px -1px,
+        rgba($primary, 1) 0px 2px 4px -1px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .entry-header {
+      h1 {
+        line-height: 1.15;
+        color: $text-main;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      .thumbnail {
+        img {
+          width: 50px;
+          height: 36px;
+        }
+      }
+    }
+    .entry-content {
+      .content-description {
+        color: $text-light;
+        font-weight: 400;
+      }
+
+      .direction-icon {
+        text-align: right;
+        color: $secondary;
+      }
+    }
+    .arrow-icon {
+      fill: $secondary;
+    }
+    // &:nth-child(3n + 1) {
+    //   .arrow-icon {
+    //     fill: $primary;
+    //   }
+    // }
+    // &:nth-child(3n + 2) {
+    //   .arrow-icon {
+    //     fill: $secondary;
+    //   }
+    // }
+    // &:nth-child(3n + 3) {
+    //   .arrow-icon {
+    //     fill: $orange;
+    //   }
+    // }
+  }
+}

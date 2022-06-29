@@ -3016,67 +3016,349 @@ Stack trace:
 [26-Jun-2022 11:49:31 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
 [26-Jun-2022 11:49:31 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
 [26-Jun-2022 11:49:31 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
-[28-Jun-2022 11:18:18 UTC] PHP Warning:  unlink(C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php on line 108
-[28-Jun-2022 11:18:18 UTC] PHP Stack trace:
-[28-Jun-2022 11:18:18 UTC] PHP   1. {main}() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\plugins.php:0
-[28-Jun-2022 11:18:18 UTC] PHP   2. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\plugins.php:10
-[28-Jun-2022 11:18:18 UTC] PHP   3. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\admin.php:34
-[28-Jun-2022 11:18:18 UTC] PHP   4. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-load.php:50
-[28-Jun-2022 11:18:18 UTC] PHP   5. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-config.php:91
-[28-Jun-2022 11:18:18 UTC] PHP   6. do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-settings.php:620
-[28-Jun-2022 11:18:18 UTC] PHP   7. WP_Hook->do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\plugin.php:476
-[28-Jun-2022 11:18:18 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:331
-[28-Jun-2022 11:18:18 UTC] PHP   9. wp_scss_needs_compiling() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:307
-[28-Jun-2022 11:18:18 UTC] PHP  10. wp_scss_compile() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\wp-scss.php:230
-[28-Jun-2022 11:18:18 UTC] PHP  11. Wp_Scss->compile() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\wp-scss.php:245
-[28-Jun-2022 11:18:18 UTC] PHP  12. unlink() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108
-[28-Jun-2022 11:18:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108) in C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\includes\misc.php on line 1380
-[28-Jun-2022 11:18:24 UTC] PHP Stack trace:
-[28-Jun-2022 11:18:24 UTC] PHP   1. {main}() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\plugins.php:0
-[28-Jun-2022 11:18:24 UTC] PHP   2. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\plugins.php:10
-[28-Jun-2022 11:18:24 UTC] PHP   3. do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\admin.php:175
-[28-Jun-2022 11:18:24 UTC] PHP   4. WP_Hook->do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\plugin.php:476
-[28-Jun-2022 11:18:24 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:331
-[28-Jun-2022 11:18:24 UTC] PHP   6. wp_admin_headers() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:307
-[28-Jun-2022 11:18:24 UTC] PHP   7. header() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\includes\misc.php:1380
-[28-Jun-2022 11:18:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108) in C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\functions.php on line 6878
-[28-Jun-2022 11:18:24 UTC] PHP Stack trace:
-[28-Jun-2022 11:18:24 UTC] PHP   1. {main}() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\plugins.php:0
-[28-Jun-2022 11:18:24 UTC] PHP   2. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\plugins.php:10
-[28-Jun-2022 11:18:24 UTC] PHP   3. do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\admin.php:175
-[28-Jun-2022 11:18:24 UTC] PHP   4. WP_Hook->do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\plugin.php:476
-[28-Jun-2022 11:18:24 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:331
-[28-Jun-2022 11:18:24 UTC] PHP   6. send_frame_options_header() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:305
-[28-Jun-2022 11:18:24 UTC] PHP   7. header() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\functions.php:6878
-[28-Jun-2022 11:18:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108) in C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\admin-header.php on line 9
-[28-Jun-2022 11:18:25 UTC] PHP Stack trace:
-[28-Jun-2022 11:18:25 UTC] PHP   1. {main}() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\plugins.php:0
-[28-Jun-2022 11:18:25 UTC] PHP   2. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\plugins.php:605
-[28-Jun-2022 11:18:25 UTC] PHP   3. header() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\admin-header.php:9
-[28-Jun-2022 11:52:28 UTC] PHP Warning:  unlink(C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php on line 108
-[28-Jun-2022 11:52:28 UTC] PHP Stack trace:
-[28-Jun-2022 11:52:28 UTC] PHP   1. {main}() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\index.php:0
-[28-Jun-2022 11:52:28 UTC] PHP   2. require() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\index.php:17
-[28-Jun-2022 11:52:28 UTC] PHP   3. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-blog-header.php:13
-[28-Jun-2022 11:52:28 UTC] PHP   4. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-load.php:50
-[28-Jun-2022 11:52:28 UTC] PHP   5. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-config.php:91
-[28-Jun-2022 11:52:28 UTC] PHP   6. do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-settings.php:620
-[28-Jun-2022 11:52:28 UTC] PHP   7. WP_Hook->do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\plugin.php:476
-[28-Jun-2022 11:52:28 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:331
-[28-Jun-2022 11:52:28 UTC] PHP   9. wp_scss_needs_compiling() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:307
-[28-Jun-2022 11:52:28 UTC] PHP  10. wp_scss_compile() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\wp-scss.php:230
-[28-Jun-2022 11:52:28 UTC] PHP  11. Wp_Scss->compile() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\wp-scss.php:245
-[28-Jun-2022 11:52:28 UTC] PHP  12. unlink() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108
-[28-Jun-2022 11:54:22 UTC] PHP Warning:  unlink(C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php on line 108
-[28-Jun-2022 11:54:22 UTC] PHP Stack trace:
-[28-Jun-2022 11:54:22 UTC] PHP   1. {main}() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\admin-ajax.php:0
-[28-Jun-2022 11:54:22 UTC] PHP   2. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-admin\admin-ajax.php:22
-[28-Jun-2022 11:54:22 UTC] PHP   3. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-load.php:50
-[28-Jun-2022 11:54:22 UTC] PHP   4. require_once() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-config.php:91
-[28-Jun-2022 11:54:22 UTC] PHP   5. do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-settings.php:620
-[28-Jun-2022 11:54:22 UTC] PHP   6. WP_Hook->do_action() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\plugin.php:476
-[28-Jun-2022 11:54:22 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:331
-[28-Jun-2022 11:54:22 UTC] PHP   8. wp_scss_needs_compiling() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-includes\class-wp-hook.php:307
-[28-Jun-2022 11:54:22 UTC] PHP   9. wp_scss_compile() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\wp-scss.php:230
-[28-Jun-2022 11:54:22 UTC] PHP  10. Wp_Scss->compile() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\wp-scss.php:245
-[28-Jun-2022 11:54:22 UTC] PHP  11. unlink() C:\Users\38344\Desktop\Linda\Semestri 6\Teknologjite e Web dhe Sherbimet\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108
+[28-Jun-2022 19:09:46 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 19:09:46 UTC] PHP Stack trace:
+[28-Jun-2022 19:09:46 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 19:09:46 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 19:09:46 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 19:09:46 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 19:09:46 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 19:09:46 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 19:09:46 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 19:09:46 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 19:09:46 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 19:09:46 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 19:09:46 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 19:09:46 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 19:10:24 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 19:10:24 UTC] PHP Stack trace:
+[28-Jun-2022 19:10:24 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:0
+[28-Jun-2022 19:10:24 UTC] PHP   2. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:22
+[28-Jun-2022 19:10:24 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 19:10:24 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 19:10:24 UTC] PHP   5. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 19:10:24 UTC] PHP   6. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 19:10:24 UTC] PHP   7. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 19:10:24 UTC] PHP   8. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 19:10:24 UTC] PHP   9. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 19:10:24 UTC] PHP  10. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 19:10:24 UTC] PHP  11. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 19:11:34 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 19:11:34 UTC] PHP Stack trace:
+[28-Jun-2022 19:11:34 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:0
+[28-Jun-2022 19:11:34 UTC] PHP   2. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:22
+[28-Jun-2022 19:11:34 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 19:11:34 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 19:11:34 UTC] PHP   5. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 19:11:34 UTC] PHP   6. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 19:11:34 UTC] PHP   7. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 19:11:34 UTC] PHP   8. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 19:11:34 UTC] PHP   9. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 19:11:34 UTC] PHP  10. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 19:11:34 UTC] PHP  11. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 19:15:02 UTC] PHP Warning:  file_get_contents(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): failed to open stream: No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 107
+[28-Jun-2022 19:15:02 UTC] PHP Stack trace:
+[28-Jun-2022 19:15:02 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 19:15:02 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 19:15:02 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 19:15:02 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 19:15:02 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 19:15:02 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 19:15:02 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 19:15:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 19:15:02 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 19:15:02 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 19:15:02 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 19:15:02 UTC] PHP  12. file_get_contents() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:107
+[28-Jun-2022 19:15:02 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 19:15:02 UTC] PHP Stack trace:
+[28-Jun-2022 19:15:02 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 19:15:02 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 19:15:02 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 19:15:02 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 19:15:02 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 19:15:02 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 19:15:02 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 19:15:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 19:15:02 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 19:15:02 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 19:15:02 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 19:15:02 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 19:24:57 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 19:24:57 UTC] PHP Stack trace:
+[28-Jun-2022 19:24:57 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 19:24:57 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 19:24:57 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 19:24:57 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 19:24:57 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 19:24:57 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 19:24:57 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 19:24:57 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 19:24:57 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 19:24:57 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 19:24:57 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 19:24:57 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 19:28:15 UTC] PHP Warning:  file_get_contents(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): failed to open stream: No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 107
+[28-Jun-2022 19:28:15 UTC] PHP Stack trace:
+[28-Jun-2022 19:28:15 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:0
+[28-Jun-2022 19:28:15 UTC] PHP   2. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:22
+[28-Jun-2022 19:28:15 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 19:28:15 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 19:28:15 UTC] PHP   5. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 19:28:15 UTC] PHP   6. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 19:28:15 UTC] PHP   7. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 19:28:15 UTC] PHP   8. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 19:28:15 UTC] PHP   9. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 19:28:15 UTC] PHP  10. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 19:28:15 UTC] PHP  11. file_get_contents() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:107
+[28-Jun-2022 19:28:15 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 19:28:15 UTC] PHP Stack trace:
+[28-Jun-2022 19:28:15 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:0
+[28-Jun-2022 19:28:15 UTC] PHP   2. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:22
+[28-Jun-2022 19:28:15 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 19:28:15 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 19:28:15 UTC] PHP   5. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 19:28:15 UTC] PHP   6. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 19:28:15 UTC] PHP   7. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 19:28:15 UTC] PHP   8. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 19:28:15 UTC] PHP   9. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 19:28:15 UTC] PHP  10. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 19:28:15 UTC] PHP  11. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 19:28:26 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 19:28:26 UTC] PHP Stack trace:
+[28-Jun-2022 19:28:26 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 19:28:26 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 19:28:26 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 19:28:26 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 19:28:26 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 19:28:26 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 19:28:26 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 19:28:26 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 19:28:26 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 19:28:26 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 19:28:26 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 19:28:26 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 20:03:44 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 20:03:44 UTC] PHP Stack trace:
+[28-Jun-2022 20:03:44 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:03:44 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:03:44 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 20:03:44 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 20:03:44 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 20:03:44 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 20:03:44 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:03:44 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:03:44 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:03:44 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 20:03:44 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 20:03:44 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 20:13:36 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 20:13:36 UTC] PHP Stack trace:
+[28-Jun-2022 20:13:36 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:13:36 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:13:36 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 20:13:36 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 20:13:36 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 20:13:36 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 20:13:36 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:13:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:13:36 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:13:36 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 20:13:36 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 20:13:36 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 20:44:39 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 20:44:39 UTC] PHP Stack trace:
+[28-Jun-2022 20:44:39 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:0
+[28-Jun-2022 20:44:39 UTC] PHP   2. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:22
+[28-Jun-2022 20:44:39 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 20:44:39 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 20:44:40 UTC] PHP   5. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 20:44:40 UTC] PHP   6. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:44:40 UTC] PHP   7. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:44:40 UTC] PHP   8. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:44:40 UTC] PHP   9. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 20:44:40 UTC] PHP  10. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 20:44:40 UTC] PHP  11. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 20:44:44 UTC] PHP Warning:  file_get_contents(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): failed to open stream: No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 107
+[28-Jun-2022 20:44:44 UTC] PHP Stack trace:
+[28-Jun-2022 20:44:44 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:44:44 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:44:44 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 20:44:44 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 20:44:44 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 20:44:44 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 20:44:44 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:44:44 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:44:44 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:44:44 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 20:44:44 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 20:44:44 UTC] PHP  12. file_get_contents() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:107
+[28-Jun-2022 20:44:44 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 20:44:44 UTC] PHP Stack trace:
+[28-Jun-2022 20:44:44 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:44:44 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:44:44 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 20:44:44 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 20:44:44 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 20:44:44 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 20:44:44 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:44:44 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:44:44 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:44:44 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 20:44:44 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 20:44:44 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 20:44:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:107) in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/pluggable.php on line 1421
+[28-Jun-2022 20:44:45 UTC] PHP Stack trace:
+[28-Jun-2022 20:44:45 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:44:45 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:44:45 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 20:44:45 UTC] PHP   4. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:45
+[28-Jun-2022 20:44:45 UTC] PHP   5. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:44:45 UTC] PHP   6. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:44:45 UTC] PHP   7. do_favicon() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:44:45 UTC] PHP   8. wp_redirect() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/functions.php:1733
+[28-Jun-2022 20:44:45 UTC] PHP   9. header() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/pluggable.php:1421
+[28-Jun-2022 20:44:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:107) in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/pluggable.php on line 1424
+[28-Jun-2022 20:44:45 UTC] PHP Stack trace:
+[28-Jun-2022 20:44:45 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:44:45 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:44:45 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 20:44:45 UTC] PHP   4. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:45
+[28-Jun-2022 20:44:45 UTC] PHP   5. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:44:45 UTC] PHP   6. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:44:45 UTC] PHP   7. do_favicon() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:44:45 UTC] PHP   8. wp_redirect() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/functions.php:1733
+[28-Jun-2022 20:44:45 UTC] PHP   9. header() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/pluggable.php:1424
+[28-Jun-2022 20:44:52 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 20:44:52 UTC] PHP Stack trace:
+[28-Jun-2022 20:44:52 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:44:52 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:44:52 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 20:44:52 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 20:44:52 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 20:44:52 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 20:44:52 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:44:52 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:44:52 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:44:52 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 20:44:52 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 20:44:52 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 20:44:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108) in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/pluggable.php on line 1421
+[28-Jun-2022 20:44:53 UTC] PHP Stack trace:
+[28-Jun-2022 20:44:53 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:44:53 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:44:53 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 20:44:53 UTC] PHP   4. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:45
+[28-Jun-2022 20:44:53 UTC] PHP   5. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:44:53 UTC] PHP   6. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:44:53 UTC] PHP   7. do_favicon() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:44:53 UTC] PHP   8. wp_redirect() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/functions.php:1733
+[28-Jun-2022 20:44:53 UTC] PHP   9. header() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/pluggable.php:1421
+[28-Jun-2022 20:44:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108) in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/pluggable.php on line 1424
+[28-Jun-2022 20:44:53 UTC] PHP Stack trace:
+[28-Jun-2022 20:44:53 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:44:53 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:44:53 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 20:44:53 UTC] PHP   4. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:45
+[28-Jun-2022 20:44:53 UTC] PHP   5. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 20:44:53 UTC] PHP   6. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 20:44:53 UTC] PHP   7. do_favicon() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 20:44:53 UTC] PHP   8. wp_redirect() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/functions.php:1733
+[28-Jun-2022 20:44:53 UTC] PHP   9. header() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/pluggable.php:1424
+[28-Jun-2022 20:55:26 UTC] PHP Warning:  A non-numeric value encountered in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/template-parts/teaser-career.php on line 18
+[28-Jun-2022 20:55:26 UTC] PHP Stack trace:
+[28-Jun-2022 20:55:26 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:55:26 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:55:26 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 20:55:26 UTC] PHP   4. include() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:106
+[28-Jun-2022 20:55:26 UTC] PHP   5. get_template_part() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/page-careers.php:19
+[28-Jun-2022 20:55:26 UTC] PHP   6. locate_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/general-template.php:204
+[28-Jun-2022 20:55:26 UTC] PHP   7. load_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:716
+[28-Jun-2022 20:55:26 UTC] PHP   8. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:772
+[28-Jun-2022 20:55:26 UTC] PHP Warning:  A non-numeric value encountered in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/template-parts/teaser-career.php on line 18
+[28-Jun-2022 20:55:26 UTC] PHP Stack trace:
+[28-Jun-2022 20:55:26 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:55:26 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:55:26 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 20:55:26 UTC] PHP   4. include() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:106
+[28-Jun-2022 20:55:26 UTC] PHP   5. get_template_part() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/page-careers.php:19
+[28-Jun-2022 20:55:26 UTC] PHP   6. locate_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/general-template.php:204
+[28-Jun-2022 20:55:26 UTC] PHP   7. load_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:716
+[28-Jun-2022 20:55:26 UTC] PHP   8. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:772
+[28-Jun-2022 20:55:26 UTC] PHP Warning:  A non-numeric value encountered in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/template-parts/teaser-career.php on line 18
+[28-Jun-2022 20:55:26 UTC] PHP Stack trace:
+[28-Jun-2022 20:55:26 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 20:55:26 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 20:55:26 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 20:55:26 UTC] PHP   4. include() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:106
+[28-Jun-2022 20:55:26 UTC] PHP   5. get_template_part() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/page-careers.php:19
+[28-Jun-2022 20:55:26 UTC] PHP   6. locate_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/general-template.php:204
+[28-Jun-2022 20:55:26 UTC] PHP   7. load_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:716
+[28-Jun-2022 20:55:26 UTC] PHP   8. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:772
+[28-Jun-2022 21:02:02 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 21:02:02 UTC] PHP Stack trace:
+[28-Jun-2022 21:02:02 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 21:02:02 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 21:02:02 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:13
+[28-Jun-2022 21:02:02 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 21:02:02 UTC] PHP   5. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 21:02:02 UTC] PHP   6. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 21:02:02 UTC] PHP   7. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 21:02:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 21:02:02 UTC] PHP   9. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 21:02:02 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 21:02:02 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 21:02:02 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 21:05:41 UTC] PHP Warning:  unlink(/Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php on line 108
+[28-Jun-2022 21:05:41 UTC] PHP Stack trace:
+[28-Jun-2022 21:05:41 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:0
+[28-Jun-2022 21:05:41 UTC] PHP   2. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-admin/admin-ajax.php:22
+[28-Jun-2022 21:05:41 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-load.php:50
+[28-Jun-2022 21:05:41 UTC] PHP   4. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-config.php:91
+[28-Jun-2022 21:05:41 UTC] PHP   5. do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-settings.php:620
+[28-Jun-2022 21:05:41 UTC] PHP   6. WP_Hook->do_action() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/plugin.php:476
+[28-Jun-2022 21:05:41 UTC] PHP   7. WP_Hook->apply_filters() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:331
+[28-Jun-2022 21:05:41 UTC] PHP   8. wp_scss_needs_compiling() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/class-wp-hook.php:307
+[28-Jun-2022 21:05:41 UTC] PHP   9. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
+[28-Jun-2022 21:05:41 UTC] PHP  10. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
+[28-Jun-2022 21:05:41 UTC] PHP  11. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[28-Jun-2022 21:16:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/template-parts/teaser-career.php on line 24
+[28-Jun-2022 21:16:08 UTC] PHP Stack trace:
+[28-Jun-2022 21:16:08 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 21:16:08 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 21:16:08 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 21:16:08 UTC] PHP   4. include() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:106
+[28-Jun-2022 21:16:08 UTC] PHP   5. get_template_part() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/page-careers.php:19
+[28-Jun-2022 21:16:08 UTC] PHP   6. locate_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/general-template.php:204
+[28-Jun-2022 21:16:08 UTC] PHP   7. load_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:716
+[28-Jun-2022 21:16:08 UTC] PHP   8. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:772
+[28-Jun-2022 21:16:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/template-parts/teaser-career.php on line 24
+[28-Jun-2022 21:16:08 UTC] PHP Stack trace:
+[28-Jun-2022 21:16:08 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 21:16:08 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 21:16:08 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 21:16:08 UTC] PHP   4. include() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:106
+[28-Jun-2022 21:16:08 UTC] PHP   5. get_template_part() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/page-careers.php:19
+[28-Jun-2022 21:16:08 UTC] PHP   6. locate_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/general-template.php:204
+[28-Jun-2022 21:16:08 UTC] PHP   7. load_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:716
+[28-Jun-2022 21:16:08 UTC] PHP   8. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:772
+[28-Jun-2022 21:16:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/template-parts/teaser-career.php on line 24
+[28-Jun-2022 21:16:08 UTC] PHP Stack trace:
+[28-Jun-2022 21:16:08 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 21:16:08 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 21:16:08 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 21:16:08 UTC] PHP   4. include() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:106
+[28-Jun-2022 21:16:08 UTC] PHP   5. get_template_part() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/page-careers.php:19
+[28-Jun-2022 21:16:08 UTC] PHP   6. locate_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/general-template.php:204
+[28-Jun-2022 21:16:08 UTC] PHP   7. load_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:716
+[28-Jun-2022 21:16:08 UTC] PHP   8. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:772
+[28-Jun-2022 21:16:08 UTC] PHP Warning:  A non-numeric value encountered in /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/template-parts/teaser-career.php on line 24
+[28-Jun-2022 21:16:08 UTC] PHP Stack trace:
+[28-Jun-2022 21:16:08 UTC] PHP   1. {main}() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:0
+[28-Jun-2022 21:16:08 UTC] PHP   2. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/index.php:17
+[28-Jun-2022 21:16:08 UTC] PHP   3. require_once() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-blog-header.php:19
+[28-Jun-2022 21:16:08 UTC] PHP   4. include() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template-loader.php:106
+[28-Jun-2022 21:16:08 UTC] PHP   5. get_template_part() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/themes/softsolutions/page-careers.php:19
+[28-Jun-2022 21:16:08 UTC] PHP   6. locate_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/general-template.php:204
+[28-Jun-2022 21:16:08 UTC] PHP   7. load_template() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:716
+[28-Jun-2022 21:16:08 UTC] PHP   8. require() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-includes/template.php:772
