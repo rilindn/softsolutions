@@ -20,4 +20,11 @@
       color: $text-light;
     }
   }
+  .mobile-project {
+    > .wp-block-group__inner-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 }
