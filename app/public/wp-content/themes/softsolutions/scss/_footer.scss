@@ -3,9 +3,55 @@
 .site-footer {
   display: flex;
   justify-content: center;
-  background-color: $gray;
+  background-color: #414d5b;
   padding: 20px;
+  flex-direction: column;
   color: $light;
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  .bottom-container {
+    display: flex;
+    justify-content: center;
+  }
+  .sub-container {
+    h2 {
+      color: $light;
+    }
+  }
+  .info-container {
+    span {
+      color: $light;
+      font-size: 16px;
+    }
+  }
+  .item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 45px;
+    h4 {
+      width: 80px;
+      color: $light;
+      font-size: 18px;
+    }
+    span {
+      font-size: 18px;
+    }
+  }
+  .icon-container {
+    display: flex;
+    gap: 20px;
+  }
 }
 
 .container {
