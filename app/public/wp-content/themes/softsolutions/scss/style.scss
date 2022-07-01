@@ -12,16 +12,17 @@
     This theme, like WordPress, is licensed under the GPL.
     Use it to make something cool, have fun, and share what you've learned with others.
 */
-@import "./_header.scss";
-@import "./_footer.scss";
-@import "./_services.scss";
-@import "./_about.scss";
-@import "./_single-post.scss";
-@import "./_latest-news.scss";
-@import "./team.scss";
-@import "./projects.scss";
-@import "./breakpoints.scss";
+@import "./header";
+@import "./footer";
+@import "./services";
+@import "./about";
+@import "./single-post";
+@import "./latest-news";
+@import "./team";
+@import "./projects";
 @import "./careers";
+@import "./blogs";
+@import "./breakpoints";
 
 html {
   line-height: 1.15;
@@ -56,132 +57,6 @@ a {
   }
 }
 
-.blogs {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px;
-
-  .blog-post {
-    // width: 30%;
-    border-radius: 10px;
-    box-shadow: 0 0 20px 0 rgba($secondary, 0.1);
-    &:hover {
-      box-shadow: 0 0 20px 0 rgba($secondary, 0.2);
-    }
-    @include xs {
-      width: 90%;
-    }
-    @include sm {
-      width: 90%;
-    }
-    @include md {
-      width: 40%;
-    }
-    @include lg {
-      width: 30%;
-    }
-    @include xl {
-      width: 30%;
-    }
-    a {
-      text-decoration: none;
-    }
-
-    .thumbnail {
-      width: 100% !important;
-      img {
-        width: 100% !important;
-        height: 200px !important;
-        border-radius: 10px 10px 0 0;
-      }
-    }
-
-    .blog-content {
-      padding: 0px 15px 10px 10px !important;
-      color: #414d5b !important;
-
-      .text-content {
-        padding: 10px 4px;
-        &--truncate {
-          display: -webkit-box;
-          max-width: 100%;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-        }
-        .title {
-          -webkit-line-clamp: 1;
-          margin: 5px 0;
-        }
-        .description {
-          -webkit-line-clamp: 3;
-        }
-      }
-      .divider {
-        color: #70b4e1;
-        margin: 15px 0;
-      }
-      .author {
-        display: flex;
-        align-items: center;
-        padding: 5px;
-        .author-date {
-          display: flex;
-          flex-direction: column;
-          padding: 0 10px 0 10px;
-        }
-        .avatar {
-          width: 45px !important;
-          height: 45px !important;
-          line-height: 40px;
-          border-radius: 50%;
-          box-sizing: border-box;
-          margin: 0;
-          padding: 0;
-          color: rgba(0, 0, 0, 0.85);
-          font-size: 14px;
-          font-variant: tabular-nums;
-          line-height: 1.5715;
-          list-style: none;
-          font-feature-settings: "tnum", "tnum";
-          position: relative;
-          display: inline-block;
-          overflow: hidden;
-          color: #fff;
-          white-space: nowrap;
-          text-align: center;
-          vertical-align: middle;
-          background: #ccc;
-          width: 32px;
-          height: 32px;
-          line-height: 32px;
-          border-radius: 50%;
-        }
-      }
-      .tags {
-        display: flex;
-        gap: 10px;
-        margin-top: 10px;
-
-        span {
-          padding: 2px 5px;
-          border-radius: 6px;
-          font-size: 12px;
-
-          &:nth-child(3n + 1) {
-            background-color: rgba($primary, 0.1);
-          }
-          &:nth-child(3n + 2) {
-            background-color: rgba($secondary, 0.1);
-          }
-          &:nth-child(3n + 3) {
-            background-color: rgba($orange, 0.1);
-          }
-        }
-      }
-    }
-  }
-}
 .page-content {
   .wp-block-cover {
     .wp-block-cover__inner-container {
@@ -253,4 +128,8 @@ h2 {
 p,
 span {
   color: $text-light;
+}
+
+.widget {
+  list-style: none;
 }
