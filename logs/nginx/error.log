@@ -94,3 +94,4 @@
 2022/06/25 22:01:51 [alert] 19736#4648: the event "ngx_master_19736" was not signaled for 5s
 2022/06/25 22:02:09 [alert] 22952#8984: OpenEvent("ngx_master_25044") failed (2: The system cannot find the file specified)
 2022/06/25 22:04:52 [alert] 27680#25172: OpenEvent("ngx_master_27040") failed (2: The system cannot find the file specified)
+2022/07/02 00:05:26 [alert] 22076#35508: OpenEvent("ngx_master_33080") failed (2: The system cannot find the file specified)

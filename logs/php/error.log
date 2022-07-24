@@ -3479,3 +3479,16 @@ Stack trace:
 [30-Jun-2022 20:49:17 UTC] PHP  10. wp_scss_compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:230
 [30-Jun-2022 20:49:17 UTC] PHP  11. Wp_Scss->compile() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/wp-scss.php:245
 [30-Jun-2022 20:49:17 UTC] PHP  12. unlink() /Users/florentinalija/Desktop/fk_projects/softsolutions/app/public/wp-content/plugins/wp-scss/class/class-wp-scss.php:108
+[24-Jul-2022 21:43:59 UTC] PHP Warning:  unlink(F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public/wp-content/plugins/wp-scss/cache/style.css): No such file or directory in F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php on line 108
+[24-Jul-2022 21:43:59 UTC] PHP Stack trace:
+[24-Jul-2022 21:43:59 UTC] PHP   1. {main}() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-admin\admin-ajax.php:0
+[24-Jul-2022 21:43:59 UTC] PHP   2. require_once() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-admin\admin-ajax.php:22
+[24-Jul-2022 21:43:59 UTC] PHP   3. require_once() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-load.php:50
+[24-Jul-2022 21:43:59 UTC] PHP   4. require_once() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-config.php:91
+[24-Jul-2022 21:43:59 UTC] PHP   5. do_action() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-settings.php:620
+[24-Jul-2022 21:43:59 UTC] PHP   6. WP_Hook->do_action() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-includes\plugin.php:476
+[24-Jul-2022 21:43:59 UTC] PHP   7. WP_Hook->apply_filters() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-includes\class-wp-hook.php:331
+[24-Jul-2022 21:43:59 UTC] PHP   8. wp_scss_needs_compiling() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-includes\class-wp-hook.php:307
+[24-Jul-2022 21:43:59 UTC] PHP   9. wp_scss_compile() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-content\plugins\wp-scss\wp-scss.php:230
+[24-Jul-2022 21:43:59 UTC] PHP  10. Wp_Scss->compile() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-content\plugins\wp-scss\wp-scss.php:245
+[24-Jul-2022 21:43:59 UTC] PHP  11. unlink() F:\Literatura UBT\Semestri VI\WTS\Projekti\app\public\wp-content\plugins\wp-scss\class\class-wp-scss.php:108

@@ -1,6 +1,0 @@
-
-*.sql
-
-app/public/wp-content/themes/*
-app/public/wp-content/ai1wm-backups
-!app/public/wp-content/themes/softsolutions
