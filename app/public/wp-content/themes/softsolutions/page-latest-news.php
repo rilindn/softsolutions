@@ -21,8 +21,8 @@
                             <div class="keywords">
                                 <?php 
                                 if (is_array($element['keywords'])) {
-                                for ($i = 0; $i < 5; $i++) {
-                                    if (!$element['keywords'][$i]) break;
+                                for ($i = 0; $i < 3; $i++) {
+                                    if (!isset($element['keywords'][$i])) break;
                                 ?>
                                 <span>
                                     <?php echo $element['keywords'][$i] ?>
